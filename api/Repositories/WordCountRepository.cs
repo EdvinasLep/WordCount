@@ -4,12 +4,12 @@ using System.Linq;
 using System.Threading.Tasks;
 using api.Models;
 using api.Data;
-using Microsoft.EntityFrameworkCore; 
+using Microsoft.EntityFrameworkCore;
 
 namespace api.Repositories
 {
     public class WordCountRepository : IWordCountRepository
-        {
+    {
         private readonly WordCountContext _context;
 
         public WordCountRepository(WordCountContext context)
@@ -47,5 +47,4 @@ namespace api.Repositories
             }
         }
     }
-
 }
