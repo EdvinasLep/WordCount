@@ -20,4 +20,11 @@ A simple ASP.NET Core API that counts words in uploaded text files.
 
 **POST** `/api/WordCount`
 - Upload files using the file input
-- Returns JSON with word counts from all uploaded files combined and adds entry do database
+- Returns JSON with word counts from all uploaded files combined and adds entry to database
+
+### Unit Test Results
+
+![Unit Test Results](api.Tests/UnitTestResultScreenShot.png)
+
+
+
